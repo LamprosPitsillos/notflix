@@ -42,7 +42,7 @@ else
 	notify(){
 		notify-send "${1}" "${2}" -i NONE
 	}
-	search_menu="rofi -dmenu -i -p Anime:"
+	search_menu="rofi -dmenu -i -p 'Movie: '"
 	query="$($search_menu | tr " " "+")"
 fi
 
