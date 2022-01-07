@@ -1,23 +1,17 @@
-# This is a complete rewrite of NOTFLIX made to be cacheless and POSIX
-<h1 align="center">NOTFLIX</h1>
-<p align="center">f@#k netflix use notflix a tool which search magnet links and stream it with webtorrent</p>
+<h1 align="This is a complete rewrite of NOTFLIX made to be cacheless and POSIX">NOTFLIX</h1>
+<p align="center">[Original notflix by Bugswriter](https://github.com/Bugswriter/notflix)</p>
 
 ##
 <p align="center">
 <img src="./preview.gif" alt="Video Preview" width="500px">
 </p>
 
-> Watch my video on this - [bugswriter's notflix](https://youtu.be/RFJCL9C46Mc)
-
-### How does this work?
-
-This is a shell script. It scrapes 1337x and gets the magnet link.
-After this it uses [webtorrent](https://webtorrent.io/) to stream the video from the magnet link.
-For scraping, the script uses simple gnu utils like sed, awk, paste, cut.
-
 ## Requirements
 
 * [webtorrent](https://webtorrent.io/) - A tool to stream torrent. `sudo npm install webtorrent -g`
+* rofi (can be changed in script)
+* ripgrep (can be changed in script)
+* fzf (can be changed in script)
 
 ## Installation
 
@@ -25,8 +19,8 @@ For scraping, the script uses simple gnu utils like sed, awk, paste, cut.
 cURL **notflix** to your **$PATH** and give execute permissions.
 
 ```sh
-$ sudo curl -sL "https://raw.githubusercontent.com/Bugswriter/notflix/master/notflix" -o /usr/local/bin/notflix
-$ sudo chmod +x /usr/local/bin/notflix
+$ curl -sL "https://raw.githubusercontent.com/LamprosPitsillos/notflix/master/notflix" -o ~/.local/bin/notflix
+$ chmod +x ~/.local/bin/notflix
 ```
 - To update, just do `curl` again, no need to `chmod` anymore.
 - To uninstall, simply remove `notflix` from your **$PATH**, for example `sudo rm -f /usr/local/bin/notflix.
