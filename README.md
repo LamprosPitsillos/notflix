@@ -24,6 +24,9 @@ $ chmod +x ~/.local/bin/notflix
 ```
 - To update, just do `curl` again, no need to `chmod` anymore.
 - To uninstall, simply remove `notflix` from your **$PATH**, for example `sudo rm -f /usr/local/bin/notflix.
-
+## Similar Project
+### SoftyRoll
+[LamprosPitsillos/SoftyRoll: Nyaa.si scraper shell script for quickly and easily watching anime!](https://github.com/LamprosPitsillos/SoftyRoll)
+Exact same script but for Anime!
 ## License
 This project is licensed under [GPL-3.0](https://raw.githubusercontent.com/Illumina/licenses/master/gpl-3.0.txt).
