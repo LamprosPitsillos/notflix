@@ -1,5 +1,5 @@
 <h1 align="center">This is a complete rewrite of NOTFLIX made to be cacheless and POSIX</h1>
-<p align="center">[Original notflix by Bugswriter](https://github.com/Bugswriter/notflix)</p>
+<p align="center">Original notflix by Bugswriter : https://github.com/Bugswriter/notflix</p>
 
 ##
 <p align="center">
