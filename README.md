@@ -1,3 +1,4 @@
+# This is a complete rewrite of NOTFLIX made to be cacheless and POSIX
 <h1 align="center">NOTFLIX</h1>
 <p align="center">f@#k netflix use notflix a tool which search magnet links and stream it with webtorrent</p>
 
@@ -32,4 +33,3 @@ $ sudo chmod +x /usr/local/bin/notflix
 
 ## License
 This project is licensed under [GPL-3.0](https://raw.githubusercontent.com/Illumina/licenses/master/gpl-3.0.txt).
-
